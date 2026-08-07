@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------------------
 creates a responsive <img>
 ---------------------------------------------------------------------------- */
-import eleventyImage, { eleventyImagePlugin } from '@11ty/eleventy-img';
+import eleventyImage from '@11ty/eleventy-img';
 
 export default async function image(
 	src,
